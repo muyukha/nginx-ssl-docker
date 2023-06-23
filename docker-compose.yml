@@ -9,7 +9,7 @@ services:
       - "10087:80"
       - "8443:443"
     volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx.conf:/etc/nginx/conf
       - ./certificates:/etc/nginx/certificates
       - ./nextresearch.io.conf:/etc/nginx/conf.d/nextresearch.io.conf
       - ./html/:/var/www/html/

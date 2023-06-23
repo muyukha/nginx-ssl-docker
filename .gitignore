@@ -1,4 +1,3 @@
-*.crt
-*.csr
-*.pem
-certificates/
+certificates/*.crt
+certificates/*.csr
+certificates/*.pem
